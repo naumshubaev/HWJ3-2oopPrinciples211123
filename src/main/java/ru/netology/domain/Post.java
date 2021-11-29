@@ -20,6 +20,15 @@ public class Post {
     private boolean isFavorite;
     private boolean postponedId; // Идентификатор отложенной записи. Это поле возвращается тогда, когда запись стояла на таймере.
 
+    private LikesInfo likesInfo;
+    private PostSource postSource;
+    private RepostsInfo repostsInfo;
+    private Views views;
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private Donut donut;
+    private Geo geo;
+
     //getters, setters
 }
 
